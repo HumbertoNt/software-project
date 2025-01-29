@@ -1,5 +1,6 @@
 user = True
 students = []
+week = []
 
 while user:
     case = input('(1) matricula (2) aulas (0) quit')
@@ -25,7 +26,6 @@ while user:
 # Gestão de aulas.
 
     if case == '2':
-        week = []
         enrollment = 'true'
 
         while enrollment:
